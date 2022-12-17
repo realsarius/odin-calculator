@@ -135,5 +135,5 @@ divideBtn.addEventListener("click", () => {
 equalsBtn.addEventListener("click", () => {
   const result = eval(number.replace(/[^0-9\+\-\*\/]/g, ''));
   resultText.textContent = result;
-  number = "";
+  number = result;
 });
